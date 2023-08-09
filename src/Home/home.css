@@ -1,0 +1,358 @@
+@media (min-width: 1200px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  #logo {
+ top: 25px;
+ position: relative;
+
+  width: 15px;
+  }
+  header {
+    color: #252524;
+    width: 95%;
+    background-color: #eae7dc;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #fff6e0;
+    font-size: 2ch;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 20px;
+  }
+  li {
+    margin: 55px;
+    text-transform: uppercase;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  a {
+    color: #252524;
+    text-decoration: none;
+  }
+  a:hover {
+    padding-top: 7px;
+    text-decoration: line-through 4px #898888;
+    transition: 1s;
+  }
+
+ #title {
+margin-top: 90px;
+ }
+/* ABOUT  */
+#about {
+margin: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+#flex {
+  display: flex;
+  justify-content: space-around;
+}
+#mySelf {
+  max-width: 30%;
+  margin-right: 20px;
+}
+#aboutText {
+  text-align: left;
+
+}
+/* SKILLLS PC VIEW */
+#skills {
+
+  justify-content: center;
+align-items: center;
+  text-align: center;
+  margin: 20px;
+}
+#mySkills {
+text-align: center;
+justify-content: center;
+align-items: center;
+  display: flex;
+margin: 50px;
+}
+/* WORKS PC VIEW */
+#works {
+  display: grid;
+  place-items: center;
+
+
+}
+#project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px;
+  gap: 50px;
+  padding: 25px;
+}
+#line {
+  border:1px solid black;
+  height:900px;
+  position: absolute;
+  box-shadow: 1px 1px 1px black;
+  top: 1700px;
+}
+#project img {
+margin-bottom: 25px;
+}
+footer {
+  margin-top: 15px;
+}
+}
+/* *********************************************END OF PC VIEW **************************************************************** */
+
+                                       /* MEDIA              QUERIES                FOR                     MOBILE */
+@media (min-width: 320px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  #line {
+    display: block;
+  }
+  #logo {
+    width: 35%;
+    align-items: center;
+    display: flex;
+  }
+h1 {
+    color: #e98074;
+}
+
+  header {
+    color: #252524;
+    width: 100%;
+    background-color: #eae7dc;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #fff6e0;
+    font-size: 2ch;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #home {
+    display: grid;
+    place-items: center;
+    margin: 20px;
+    background-size: 10px 10px;
+  }
+  #greet {
+    font-size: 50px;
+    border: 1px solid black;
+    height: 120px;
+    text-align: center;
+    position: relative;
+    box-shadow: 2px 2px 2px #252524;
+    top: 130px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+
+  #title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    line-height: 1em;
+    position: relative;
+    top: 45%;
+    color: #e85a4a;
+    font-weight: lighter;
+  }
+
+  #resume {
+    height: 70px;
+    width: 120px;
+    border-radius: 55px 175px 55px;
+    transform: translateY(-5%);
+    text-transform: uppercase;
+    cursor: pointer;
+ position: relative;
+ top: -30px;
+  }
+  #cj {
+    color: #e85a4a;
+    margin: 10px;
+  }
+
+  /* menu */
+  a {
+    color: #252524;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  a:hover {
+    padding-top: 7px;
+    text-decoration: line-through 4px #898888;
+    transition: 1s;
+  }
+  ul {
+    list-style: none;
+  }
+
+
+  /* ABOUT */
+  #about {
+    margin-top:140px;
+text-align: center;
+  }
+  #aboutH1 {
+    margin-bottom: 35px;
+    font-size: 80px;
+    color: #e98074;
+    text-align: center;
+  }
+
+  #mySelf {
+width: 60%;
+border-radius: 50%;
+border: 1px solid #0e0e6e;
+box-shadow:2px 2px 2px black;
+  }
+  h3 {
+    margin: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e98074;
+    text-transform: uppercase;
+  }
+    /* skills  */
+  #skills {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 47px;
+  }
+  #mySkills {
+    margin: 25px;
+  }
+
+#html, #css , #js, #react, #node , #mongoDb {
+    margin: 15px ;
+    font-size: 25px;
+text-transform: uppercase;
+
+}
+#html:hover {
+    color: #E34F26;
+    position: relative;
+    top: -1px;
+    transition: .5s;
+    box-shadow: 2px 2px 2px 2px #E34F26;
+  
+}
+#css:hover{
+    color:#1572B6;
+    position: relative;
+    top: -1px;
+    transition: .5s;
+    box-shadow: 2px 2px 2px 2px #1572B6;
+}
+#js:hover {
+    color:#1572B6;
+    position: relative;
+    top: -1px;
+    color:#bca600;
+    box-shadow: 2px 2px 2px 2px #bca600;
+} 
+#react:hover {
+    color:#1572B6;
+    position: relative;
+    top: -1px;
+    color : #61DAFB;
+    box-shadow: 2px 2px 2px 2px #1572B6;
+}
+#node:hover {
+    
+    position: relative;
+    top: -1px;
+color: #6CC24A;
+box-shadow: 2px 2px 2px 2px #6CC24A;
+}
+#mongoDb:hover {
+    color:#1572B6;
+    position: relative;
+    top: -1px;
+    color:#47A248;
+
+    box-shadow: 2px 2px 2px 2px #47A248;
+}
+span {
+    color: #E34F26;
+}
+#project img{
+  width: 80%;
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 15px 15px 15px  #8b857e;
+
+}
+
+
+/* Works CSs */
+#works {
+  align-items: center;
+  text-align: center;
+
+}
+#project img {
+  margin-bottom: 15px;
+}
+#workH1 {
+  font-size: 55px;
+  margin: 15px;
+}
+#project {
+  padding: 19px;
+
+  align-items: center;
+  text-align: center;
+}
+#project > div {
+margin-bottom: 20px;
+
+}
+
+/* FOOTER SECTION */
+#accounts {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+ width: 100%;
+
+}
+#socialMedia {
+  gap: 5px;
+ display: flex;
+ justify-content: space-between;
+ font-size: 55px;
+ box-shadow: 2px 2px 2px #c34a4a;
+}
+#accountsContainer {
+  margin: 25px;
+}
+
+#messenger {
+  color: #1877F2;
+}
+
+#linkedIn {
+  color:#0A66C2;
+}
+
+}
