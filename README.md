@@ -1,4 +1,4 @@
-Final Project POrtfolio ; 
+Final Project Portfolio ; 
 
 #Technologies used . 
 React Js , Pure Css . 
