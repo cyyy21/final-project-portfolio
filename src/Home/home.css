@@ -52,6 +52,9 @@ margin: 80px;
   align-items: center;
   padding: 50px 0;
 }
+#about p {
+  font-size: 20px;
+}
 #flex {
   display: flex;
   justify-content: space-around;
@@ -106,6 +109,7 @@ margin-bottom: 25px;
 footer {
   margin-top: 15px;
 }
+
 }
 /* *********************************************END OF PC VIEW **************************************************************** */
 
