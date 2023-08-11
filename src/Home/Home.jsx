@@ -20,7 +20,19 @@ import {
   FaFacebookMessenger,
   FaCode,
 } from "react-icons/fa";
+import { useState } from "react";
+
 function Home() {
+
+  const [toggle, setToggle] = useState(false);
+
+  function handleKey () {
+      if(true) {
+          setToggle(!toggle)
+      }
+  }
+  
+
   return (
     <div>
       <header>
@@ -40,6 +52,19 @@ function Home() {
           </ul>
         </nav>
       </header>
+      <div id="hamburger" onClick={(handleKey)}>
+            <div id="burgerLine"></div>
+            <div id="burgerLine"></div>
+            <div id="burgerLine"></div>
+            {
+                toggle?<div id="show">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#works">Works</a>
+                </div>:null
+            }
+      
+            </div>
       {/* FOR HOME section*/}
       <section id="home">
         <h1 id="title">Fullstack Web Developer</h1>
@@ -50,7 +75,7 @@ function Home() {
 
         <a href="/pdf/CyrilJohn_FullStackDev_2023.resume.pdf">
     
-          <button id="resume">RESUME</button>
+          <button id="resume">Download RESUME</button>
         </a>
       </section>
 
@@ -62,15 +87,24 @@ function Home() {
           <div id="abouText">
             <p>
             
-              I'm Cyril John Deleon,<br />a Junior Fullstack Web Developer, eager to learn and contribute to web projects with my growing skills in both front-end and back-end development.
+              I'm Cyril John Deleon,<br />a Fullstack Web Developer, eager to learn and contribute to web projects with my growing skills in both front-end and back-end development.
             </p>
             <div>
               <h3>CERTIFICATE</h3>
               <p>
-                MAY 2015 - Computer Literacy Program (Module II Computer
+               <strong>MAY 2015</strong>   <br />
+                 Computer Literacy Program (Module II Computer
                 Hardware Software and Graphic Design) Datacom Institute of
                 Computer Technology (Rosario Branch)
               </p>
+              <br />
+            
+              <p>
+               <strong>Feb 20 2023 - Aug 11 2023 </strong> <br />
+              
+                6-month Part Time FullStack Web Development Program 
+                </p> 
+                <br />
               <h3>Random Facts About Me </h3>
               <p>
                 I'm a fan of Slapshock and Greyhoundz. I enjoy listening to rock
