@@ -73,7 +73,7 @@ function Home() {
           Hi, I'm <span id="cj">Cj</span>
         </p>
 
-        <a href="/pdf/CyrilJohn_FullStackDev_2023.resume.pdf">
+        <a href="/pdf/resume.pdf">
     
           <button id="resume">Download RESUME</button>
         </a>
@@ -207,7 +207,7 @@ function Home() {
           <h1>GALANA APP </h1>
           <Link to="https://galana-app.onrender.com"> <img src={galana} alt="galana" /></Link>
           <p>
-            The Galana App is a user-friendly application designed to
+            The Galana App is  application designed to
             help you add travel information. With this app, you can add, edit,
             and delete places to blog about your hotels or places. <br />
             Code Source FRONT-END: <Link to='https://github.com/cyyy21/p4-node-frontend'><span>CODE<FaCode/></span></Link><br />
