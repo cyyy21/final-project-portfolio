@@ -7,6 +7,7 @@ How to Run
 copy code repositories 
 
 Install independecies ;
+cd final-project-portfolio 
 
 npm install react-icons --save
 
