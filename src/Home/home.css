@@ -54,7 +54,7 @@ margin-top: 90px;
 }
 #about p {
   font-size: 25px;
-  margin: 5px;
+  margin: 35px;
 }
 #flex {
   display: flex;
@@ -62,7 +62,9 @@ margin-top: 90px;
 }
 #mySelf {
   max-width: 30%;
-  margin-right: 20px;
+  margin: 20px;
+  height: 25%;
+  margin-top: 5%;
 }
 #aboutText {
   text-align: left;
@@ -76,12 +78,18 @@ align-items: center;
   text-align: center;
   margin: 20px;
 }
+
 #mySkills {
 text-align: center;
 justify-content: center;
 align-items: center;
   display: flex;
 margin: 50px;
+gap: 100px;
+}
+#description {
+  margin: 125px;
+  font-size: 25px;
 }
 /* WORKS PC VIEW */
 #works {
@@ -99,17 +107,34 @@ margin: 50px;
 }
 #line {
   border:1px solid black;
-  height:900px;
+  height:1500px;
   position: absolute;
   box-shadow: 1px 1px 1px black;
-  top: 1700px;
+  top: 2450px;
 }
 #project img {
 margin-bottom: 25px;
 }
-footer {
+/* FOR ACCOUNTS CSS */
+#accounts {
   margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
+#socialMedia {
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+#socialMedia a {
+margin-inline: 120px;
+margin-top: 25px;
+}
+
+
 ul li{
   display: inline-block;
 }
@@ -254,6 +279,10 @@ box-shadow:2px 2px 2px black;
   #mySkills {
     margin: 25px;
   }
+  #description {
+    margin: 25px;
+
+  }
 
 #html, #css , #js, #react, #node , #mongoDb {
     margin: 15px ;
@@ -310,7 +339,7 @@ span {
 }
 #project img{
   width: 80%;
-  cursor: pointer;
+ 
   margin: 5px;
   box-shadow: 15px 15px 15px  #8b857e;
 
@@ -318,6 +347,24 @@ span {
 
 
 /* Works CSs */
+#works button {
+margin: 10px;
+  align-items: center;
+  text-transform: uppercase;
+  height:80px;
+  width: 90px;
+  border-radius: 25px;
+
+  color: black;
+  cursor: pointer;
+}
+#works button:hover {
+  background-color: #54bf56;
+  position: relative;
+  top: -3px;
+  transition: .5;
+}
+
 #works {
   align-items: center;
   text-align: center;
@@ -351,14 +398,19 @@ margin-bottom: 20px;
 
 }
 #socialMedia {
-  gap: 5px;
+  gap: 15px;
  display: flex;
- justify-content: space-between;
+
  font-size: 55px;
- box-shadow: 2px 2px 2px #c34a4a;
+ box-shadow: 1px 2px 2px 2px #c34a4a;
+ align-items: center;
 }
 #accountsContainer {
   margin: 25px;
+  
+}
+#accountsContainer h1 {
+  margin: 15px;
 }
 
 #messenger {
