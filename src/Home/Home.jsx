@@ -30,6 +30,7 @@ function Home() {
       setToggle(!toggle);
     }
   }
+ 
 
   return (
     <div>
@@ -116,11 +117,12 @@ function Home() {
                 for web projects.
                 <br />
               </p>
-              <p>
+          <p style={{position:'relative', right:'200px'}}>
                 <br />
                 <br />
                 Feb 20 2023 - Aug 11 2023 <br />
-                6-month Part Time FullStack Web Development Program <br />
+                6-month Part Time FullStack Web Development Program 
+                <br />
                 <br />
                 The 6-month Part-Time FullStack Web Development Program I
                 undertook provided an in-depth education on both front-end and
@@ -131,7 +133,8 @@ function Home() {
                 user-friendly interfaces, handle data processing, and manage
                 server-side functionalities, ultimately equipping me to
                 contribute effectively to fullstack development projects.
-              </p>
+                </p>
+             
               <br />
             </div>
           </div>
