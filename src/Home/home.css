@@ -63,7 +63,7 @@ margin-top: 90px;
 #mySelf {
   max-width: 30%;
   margin: 20px;
-  height: 25%;
+  height: 50%;
   margin-top: 5%;
 }
 #aboutText {
@@ -130,7 +130,7 @@ text-align: center;
 align-items: center;
 }
 #socialMedia a {
-margin-inline: 120px;
+margin-inline: 100px;
 margin-top: 25px;
 }
 
@@ -407,7 +407,7 @@ margin-bottom: 20px;
 }
 #accountsContainer {
   margin: 25px;
-  
+ 
 }
 #accountsContainer h1 {
   margin: 15px;
@@ -420,6 +420,14 @@ margin-bottom: 20px;
 #linkedIn {
   color:#0A66C2;
 }
+#socialMedia {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 2px;
+  }
+ 
 
 /* HAMBURGER NAVIGATION  */
 #burgerLine {

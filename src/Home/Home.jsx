@@ -117,7 +117,7 @@ function Home() {
                 for web projects.
                 <br />
               </p>
-          <p style={{position:'relative', right:'200px'}}>
+          <p>
                 <br />
                 <br />
                 Feb 20 2023 - Aug 11 2023 <br />
